@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AVIRA BY SASSUI | Luxury Fragrances</title>
+
+    <meta name="description"
+          content="AVIRA BY SASSUI — Luxury fragrances crafted to leave a lasting impression.">
+
+    <meta property="og:title" content="AVIRA BY SASSUI | Luxury Fragrances">
+    <meta property="og:description" content="Luxury fragrances, mists and wax balms crafted to leave a lasting impression.">
+    <meta property="og:image" content="images/logo/avira-logo.png">
+    <link rel="icon" type="image/png" href="images/logo/avira-logo.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header class="site-header">
+
+        <div class="header-left">
+            <button class="menu-button" id="menuButton" aria-label="Open Menu" aria-expanded="false">☰</button>
+        </div>
+
+        <div class="logo-area">
+            <a href="#home">
+                <img src="images/logo/avira-logo.png" alt="AVIRA BY SASSUI Logo">
+            </a>
+        </div>
+
+        <div class="header-actions">
+            <button class="icon-button" id="searchButton" aria-label="Search">⌕</button>
+            <button class="icon-button bag-button" id="bagButton" aria-label="Shopping Bag">🛍<span class="bag-count" id="bagCount" hidden>0</span></button>
+        </div>
+
+    </header>
+
+    <!-- ================= MENU ================= -->
+    <div class="menu-overlay" id="menuOverlay" hidden></div>
+    <nav class="main-nav" id="mainNav" aria-label="Main menu">
+        <button type="button" class="nav-close" id="menuClose" aria-label="Close menu">×</button>
+        <a href="#home">Home</a>
+        <p class="nav-group">Our Collection</p>
+        <a href="#collection">Perfumes</a>
+        <a href="#mists">Fragrance Mists</a>
+        <a href="#wax-balms">Wax Balms</a>
+        <a href="#bundles">Bundle Packs</a>
+        <p class="nav-group">AVIRA</p>
+        <a href="#story">Our Story</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+
+    <!-- ================= HERO ================= -->
+    <main>
+
+        <section class="hero">
+
+            <video class="hero-video" id="hero-video"
+                   autoplay
+                   muted
+                   loop
+                   playsinline>
+                <source src="videos/avira-hero.mp4" type="video/mp4">
+            </video>
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+
+                <p class="hero-small-text">
+                    AVIRA BY SASSUI
+                </p>
+
+                <h1>
+                    A Fragrance<br>
+                    <span>That Becomes You</span>
+                </h1>
+
+                <p class="hero-description">
+                    Discover an elegant collection of luxury fragrances
+                    created to express individuality, confidence and timeless beauty.
+                </p>
+
+                <a href="#collection" class="primary-button" data-open-menu>
+                    Explore Collection
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= INTRO ================= -->
+        <section class="intro-section">
+
+            <div class="section-label">
+                THE ESSENCE OF AVIRA
+            </div>
+
+            <h2>
+                More Than A Fragrance
+            </h2>
+
+            <p>
+                Every AVIRA fragrance is created as an expression of
+                elegance, character and unforgettable moments.
+                Discover scents designed to become part of your story.
+            </p>
+
+        </section>
+
+
+        <!-- ================= BUNDLE PACKS ================= -->
+        <section class="collection-section" id="bundles">
+    <a href="#home" class="back-link">← Back to Home</a>
+            <div class="section-heading">
+                <p class="section-label">COMPLETE THE EXPERIENCE</p>
+                <h2>Bundle Packs</h2>
+                <p>Perfume, Fragrance Mist and Wax Balm together, at a special price.</p>
+                <div class="currency-bar"><label>Currency</label>
+                <select class="currency-select" aria-label="Currency">
+                    <option value="PKR">PKR ₨</option>
+                    <option value="USD">USD $</option>
+                    <option value="EUR">EUR € (Europe / Germany)</option>
+                    <option value="JPY">JPY ¥</option>
+                    <option value="SAR">SAR (Saudi Riyal)</option>
+                    <option value="QAR">QAR (Qatari Riyal)</option>
+                    <option value="AED">AED (UAE Dirham)</option>
+                </select></div>
+    </div>
+            <div class="product-grid">
+        <article class="product-card bundle-card">
+            <div class="product-image bundle-image">
+                <img loading="lazy" class="b-main" src="images/perfumes/perfume1.webp" alt="AVIRA Flora perfume">
+                <img loading="lazy" class="b-top" src="images/mists/mist2.webp" alt="AVIRA Flora mist">
+                <img loading="lazy" class="b-bottom" src="images/wax/wax2.webp" alt="AVIRA Flora wax balm">
+                <span class="save-badge" data-pkr="798" data-prefix="SAVE ">SAVE PKR 798</span>
+            </div>
+            <div class="product-info">
+                <p class="product-category">BUNDLE PACK</p>
+                <h3>The Flora Trio</h3>
+                <p class="product-description">Perfume, fragrance mist and wax balm in the Flora scent. The full AVIRA experience in one pack.</p>
+                <p class="product-size">100 ml + 75 ml + 40 g</p>
+                <div class="product-bottom">
+                    <div class="price-wrap">
+                        <span class="was">PKR 5,397</span>
+                        <span class="price">PKR 4,599</span>
+                    </div>
+                    <button class="add-button">Add to Bag</button>
+                </div>
+            </div>
+        </article>
+
+        <article class="product-card bundle-card">
+            <div class="product-image bundle-image">
+                <img loading="lazy" class="b-main" src="images/perfumes/perfume2.webp" alt="AVIRA Noir perfume">
+                <img loading="lazy" class="b-top" src="images/mists/mist3.webp" alt="AVIRA Noir mist">
+                <img loading="lazy" class="b-bottom" src="images/wax/wax3.webp" alt="AVIRA Noir wax balm">
+                <span class="save-badge" data-pkr="798" data-prefix="SAVE ">SAVE PKR 798</span>
+            </div>
+            <div class="product-info">
+                <p class="product-category">BUNDLE PACK</p>
+                <h3>The Noir Trio</h3>
+                <p class="product-description">Perfume, fragrance mist and wax balm in the Noir scent. The full AVIRA experience in one pack.</p>
+                <p class="product-size">100 ml + 75 ml + 40 g</p>
+                <div class="product-bottom">
+                    <div class="price-wrap">
+                        <span class="was">PKR 5,397</span>
+                        <span class="price">PKR 4,599</span>
+                    </div>
+                    <button class="add-button">Add to Bag</button>
+                </div>
+            </div>
+        </article>
+
+        <article class="product-card bundle-card">
+            <div class="product-image bundle-image">
+                <img loading="lazy" class="b-main" src="images/perfumes/perfume3.webp" alt="AVIRA Bloom perfume">
+                <img loading="lazy" class="b-top" src="images/mists/mist1.webp" alt="AVIRA Bloom mist">
+                <img loading="lazy" class="b-bottom" src="images/wax/wax1.webp" alt="AVIRA Bloom wax balm">
+                <span class="save-badge" data-pkr="798" data-prefix="SAVE ">SAVE PKR 798</span>
+            </div>
+            <div class="product-info">
+                <p class="product-category">BUNDLE PACK</p>
+                <h3>The Bloom Trio</h3>
+                <p class="product-description">Perfume, fragrance mist and wax balm in the Bloom scent. The full AVIRA experience in one pack.</p>
+                <p class="product-size">100 ml + 75 ml + 40 g</p>
+                <div class="product-bottom">
+                    <div class="price-wrap">
+                        <span class="was">PKR 5,397</span>
+                        <span class="price">PKR 4,599</span>
+                    </div>
+                    <button class="add-button">Add to Bag</button>
+                </div>
+            </div>
+        </article>
+
+            </div>
+        </section>
+
+        <!-- ================= VIDEOS ================= -->
+        <section class="video-section" id="videos">
+            <p class="section-label">AVIRA IN MOTION</p>
+            <h2>Feel The Moment</h2>
+            <div class="video-grid">
+                <video class="reel" src="videos/reel1.mp4" muted loop playsinline controls preload="metadata"></video>
+                <video class="reel" src="videos/reel2.mp4" muted loop playsinline controls preload="metadata"></video>
+                <video class="reel" src="videos/reel3.mp4" muted loop playsinline controls preload="metadata"></video>
+            </div>
+        </section>
+
+        <!-- ================= COLLECTION ================= -->
+        <section class="collection-section" id="collection">
+    <a href="#home" class="back-link">← Back to Home</a>
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    DISCOVER AVIRA
+                </p>
+
+                <h2>
+                    Our Collection
+                </h2>
+
+                <p>
+                    Explore fragrances created for every mood,
+                    moment and personality.
+                </p>
+
+                <div class="currency-bar"><label>Currency</label>
+                <select class="currency-select" aria-label="Currency">
+                    <option value="PKR">PKR ₨</option>
+                    <option value="USD">USD $</option>
+                    <option value="EUR">EUR € (Europe / Germany)</option>
+                    <option value="JPY">JPY ¥</option>
+                    <option value="SAR">SAR (Saudi Riyal)</option>
+                    <option value="QAR">QAR (Qatari Riyal)</option>
+                    <option value="AED">AED (UAE Dirham)</option>
+                </select></div>
+    </div>
+
+
+            <div class="product-grid">
+
+                <!-- PRODUCT 1 -->
+                <article class="product-card">
+
+                    <div class="product-image">
+                        <img loading="lazy" src="images/perfumes/perfume1.webp"
+                             alt="AVIRA Perfume">
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">
+                            SIGNATURE COLLECTION
+                        </p>
+
+                        <h3>
+                            Avira Flora
+                        </h3>
+
+                        <p class="product-description">
+                            An elegant and sophisticated fragrance
+                            created for unforgettable moments.
+                        </p>
+                         
+                       <p class="product-size">100 ml</p>
+                         <div class="product-bottom">
+                            <span class="price">
+                                PKR 2,999
+                            </span>
+
+                            <button class="add-button">
+                                Add to Bag
+                            </button>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT 2 -->
+                <article class="product-card">
+
+                    <div class="product-image">
+                        <img loading="lazy" src="images/perfumes/perfume2.webp"
+                             alt="AVIRA Luxury Perfume">
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">
+                            LUXURY COLLECTION
+                        </p>
+
+                        <h3>
+                            Avira Noir
+                        </h3>
+
+                        <p class="product-description">
+                            A refined fragrance with a distinctive
+                            and luxurious character.
+                        </p>
+                         
+                        <p class="product-size">100 ml</p>
+                       <div class="product-bottom">
+                            <span class="price">
+                                PKR 2,999
+                            </span>
+
+                            <button class="add-button">
+                                Add to Bag
+                            </button>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT 3 -->
+                <article class="product-card">
+
+                    <div class="product-image">
+                        <img loading="lazy" src="images/perfumes/perfume3.webp"
+                             alt="AVIRA Perfume Collection">
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">
+                            SIGNATURE COLLECTION
+                        </p>
+
+                        <h3>
+                            Avira Bloom
+                        </h3>
+
+                        <p class="product-description">
+                            A captivating scent designed for
+                            confidence and individuality.
+                        </p>
+
+                        <p class="product-size">100 ml</p>
+                        <div class="product-bottom">
+                            <span class="price">
+                                PKR 2,999
+                            </span>
+
+                            <button class="add-button">
+                                Add to Bag
+                            </button>
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+
+            <div class="collection-button-area">
+
+                <a href="#mists" class="outline-button">
+                    Explore Mists &amp; Balms
+                </a>
+
+            </div>
+
+        </section>
+
+   
+  
+<!-- ================= MIST COLLECTION ================= -->
+<section class="collection-section" id="mists">
+    <a href="#home" class="back-link">← Back to Home</a>
+
+    <div class="section-heading">
+        <p class="section-label">DISCOVER AVIRA</p>
+        <h2>Fragrance Mists</h2>
+        <p>Light, refreshing fragrances for everyday moments.</p>
+        <div class="currency-bar"><label>Currency</label>
+                <select class="currency-select" aria-label="Currency">
+                    <option value="PKR">PKR ₨</option>
+                    <option value="USD">USD $</option>
+                    <option value="EUR">EUR € (Europe / Germany)</option>
+                    <option value="JPY">JPY ¥</option>
+                    <option value="SAR">SAR (Saudi Riyal)</option>
+                    <option value="QAR">QAR (Qatari Riyal)</option>
+                    <option value="AED">AED (UAE Dirham)</option>
+                </select></div>
+    </div>
+
+    <div class="product-grid">
+
+        <article class="product-card">
+            <div class="product-image">
+                <img loading="lazy" src="images/mists/mist1.webp" alt="AVIRA Bloom Mist">
+            </div>
+            <div class="product-info">
+                <p class="product-category">FRAGRANCE MIST</p>
+                <h3>AVIRA Bloom Mist</h3>
+                <p class="product-description">A refreshing everyday fragrance.</p>
+                <p class="product-size">75 ml</p>
+                <div class="product-bottom">
+                    <span class="price">PKR 1,499</span>
+                    <button class="add-button">Add to Bag</button>
+                </div>
+            </div>
+        </article>
+
+        <article class="product-card">
+            <div class="product-image">
+                <img loading="lazy" src="images/mists/mist2.webp" alt="AVIRA Flora Mist">
+            </div>
+            <div class="product-info">
+                <p class="product-category">FRAGRANCE MIST</p>
+                <h3>AVIRA Flora Mist</h3>
+                <p class="product-description">A delicate and refreshing floral mist.</p>
+                <p class="product-size">75 ml</p>
+                <div class="product-bottom">
+                    <span class="price">PKR 1,499</span>
+                    <button class="add-button">Add to Bag</button>
+                </div>
+            </div>
+        </article>
+
+        <article class="product-card">
+            <div class="product-image">
+                <img loading="lazy" src="images/mists/mist3.webp" alt="AVIRA Noir Mist">
+            </div>
+            <div class="product-info">
+                <p class="product-category">FRAGRANCE MIST</p>
+                <h3>AVIRA Noir Mist</h3>
+                <p class="product-description">A refined and distinctive fragrance mist.</p>
+                <p class="product-size">75 ml</p>
+                <div class="product-bottom">
+                    <span class="price">PKR 1,499</span>
+                    <button class="add-button">Add to Bag</button>
+                </div>
+            </div>
+        </article>
+
+    </div>
+</section>
+<!-- ================= END MIST COLLECTION ================= -->
+
+<!-- ================= WAX BALM COLLECTION ================= -->
+<section class="collection-section" id="wax-balms">
+    <a href="#home" class="back-link">← Back to Home</a>
+
+    <div class="section-heading">
+        <p class="section-label">DISCOVER AVIRA</p>
+        <h2>Fragrance Wax Balms</h2>
+        <p>Your favorite fragrances in a convenient solid stick.</p>
+        <div class="currency-bar"><label>Currency</label>
+                <select class="currency-select" aria-label="Currency">
+                    <option value="PKR">PKR ₨</option>
+                    <option value="USD">USD $</option>
+                    <option value="EUR">EUR € (Europe / Germany)</option>
+                    <option value="JPY">JPY ¥</option>
+                    <option value="SAR">SAR (Saudi Riyal)</option>
+                    <option value="QAR">QAR (Qatari Riyal)</option>
+                    <option value="AED">AED (UAE Dirham)</option>
+                </select></div>
+    </div>
+
+    <div class="product-grid">
+
+        <article class="product-card">
+            <div class="product-image">
+                <img loading="lazy" src="images/wax/wax1.webp" alt="AVIRA Bloom Wax">
+            </div>
+            <div class="product-info">
+                <p class="product-category">WAX BALM STICK</p>
+                <h3>AVIRA Bloom Wax</h3>
+                <p class="product-description">A beautiful solid fragrance for everyday use.</p>
+                <p class="product-size">40 g</p>
+                <div class="product-bottom">
+                    <span class="price">PKR 899</span>
+                    <button class="add-button">Add to Bag</button>
+                </div>
+            </div>
+        </article>
+
+        <article class="product-card">
+            <div class="product-image">
+                <img loading="lazy" src="images/wax/wax2.webp" alt="AVIRA Flora Wax">
+            </div>
+            <div class="product-info">
+                <p class="product-category">WAX BALM STICK</p>
+                <h3>AVIRA Flora Wax</h3>
+                <p class="product-description">A delicate floral solid fragrance.</p>
+                <p class="product-size">40 g</p>
+                <div class="product-bottom">
+                    <span class="price">PKR 899</span>
+                    <button class="add-button">Add to Bag</button>
+                </div>
+            </div>
+        </article>
+
+        <article class="product-card">
+            <div class="product-image">
+                <img loading="lazy" src="images/wax/wax3.webp" alt="AVIRA Noir Wax">
+            </div>
+            <div class="product-info">
+                <p class="product-category">WAX BALM STICK</p>
+                <h3>AVIRA Noir Wax</h3>
+                <p class="product-description">A distinctive and refined solid fragrance.</p>
+                <p class="product-size">40 g</p>
+                <div class="product-bottom">
+                    <span class="price">PKR 899</span>
+                    <button class="add-button">Add to Bag</button>
+                </div>
+            </div>
+        </article>
+
+    </div>
+</section>
+<!-- ================= END WAX BALM COLLECTION ================= -->
+
+        
+<!-- ================= BRAND STORY ================= -->
+        <section class="story-section" id="story">
+
+            <div class="story-image">
+
+                <img loading="lazy" src="images/banners/avira-story.webp"
+                     alt="AVIRA BY SASSUI">
+
+            </div>
+
+            <div class="story-content">
+
+                <p class="section-label">
+                    OUR STORY
+                </p>
+
+                <h2>
+                    Crafted With
+                    <span>Elegance</span>
+                </h2>
+
+                <p>
+                    AVIRA BY SASSUI represents a vision of fragrance
+                    that combines beauty, sophistication and individuality.
+                </p>
+
+                <p>
+                    Each scent is created to evoke emotion,
+                    create memories and leave a beautiful impression.
+                </p>
+
+                <a href="#about" class="text-link">
+                    Discover Our Story →
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+        <section class="about-section" id="about">
+
+            <p class="section-label">
+                AVIRA BY SASSUI
+            </p>
+
+            <h2>
+                Wear Your Essence.
+            </h2>
+
+            <p>
+                Fragrance is invisible, yet unforgettable.
+                AVIRA is created for those who believe their scent
+                should be as distinctive as their presence.
+            </p>
+
+        </section>
+
+
+        <!-- ================= NEWSLETTER ================= -->
+        <section class="newsletter-section">
+
+            <p class="section-label">
+                STAY CONNECTED
+            </p>
+
+            <h2>
+                Enter the World of AVIRA
+            </h2>
+
+            <p>
+                Be the first to discover new fragrances,
+                launches and exclusive updates.
+            </p>
+
+            <form class="newsletter-form" id="newsletter-form">
+
+                <input type="email"
+                       placeholder="Enter your email address"
+                       required>
+
+                <button type="submit">
+                    Subscribe
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= CONTACT ================= -->
+    <section class="contact-section" id="contact">
+        <div class="contact-content">
+            <p class="contact-label">AVIRA BY SASSUI</p>
+            <h2>Order &amp; Contact</h2>
+            <p>
+                Ordering and contact details are coming soon.
+                Please check back shortly.
+            </p>
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="site-footer">
+
+        <div class="footer-brand">
+
+            <img src="images/logo/avira-logo.png"
+                 alt="AVIRA BY SASSUI">
+
+            <p>
+                Luxury fragrances by Sassui.
+            </p>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <div>
+                <h4>Explore</h4>
+                <a href="index.html">Home</a>
+                <a href="#collection">Collection</a>
+                <a href="#about">About</a>
+                <a href="#story">Our Story</a>
+            </div>
+
+            <div>
+                <h4>Support</h4>
+                <a href="#contact">Contact</a>
+                <a href="#contact">Shipping</a>
+                <a href="#contact">Returns</a>
+                <a href="#contact">Privacy</a>
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 AVIRA BY SASSUI. All Rights Reserved.
+            </p>
+
+            <p>
+                Luxury Fragrances
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ================= BAG DRAWER ================= -->
+    <div class="bag-overlay" id="bagOverlay" hidden></div>
+    <aside class="bag-drawer" id="bagDrawer" aria-label="Your bag" aria-hidden="true">
+        <div class="bag-head">
+            <h3>Your Bag</h3>
+            <button type="button" id="bagClose" aria-label="Close bag">×</button>
+        </div>
+        <div class="bag-items" id="bagItems"></div>
+        <div class="bag-foot">
+            <div class="currency-bar bag-currency"><label>Currency</label>
+                <select class="currency-select" aria-label="Currency">
+                    <option value="PKR">PKR ₨</option>
+                    <option value="USD">USD $</option>
+                    <option value="EUR">EUR € (Europe / Germany)</option>
+                    <option value="JPY">JPY ¥</option>
+                    <option value="SAR">SAR (Saudi Riyal)</option>
+                    <option value="QAR">QAR (Qatari Riyal)</option>
+                    <option value="AED">AED (UAE Dirham)</option>
+                </select></div>
+            <div class="bag-total"><span>Total</span><strong id="bagTotal">PKR 0</strong></div>
+            <button type="button" class="whatsapp-button bag-order" id="bagOrder">Copy Order Summary</button>
+            <button type="button" class="bag-clear" id="bagClear">Clear bag</button>
+        </div>
+    </aside>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
